@@ -6,7 +6,7 @@ print("podaj b")
 b = input()
 b = int(b)
 
-if a < b:
+while a < b:
 	print("wartosc b musi byc mniejsza od a")
 	print("podaj b")
 	b = input()
