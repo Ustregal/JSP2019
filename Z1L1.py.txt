@@ -1,7 +1,0 @@
-print("podaj a")
-a = input()
-print("podaj b")
-b = input()
-Suma = a + b
-print(Suma)
-print("P0rnHub")
