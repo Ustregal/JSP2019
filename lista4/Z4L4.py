@@ -15,17 +15,13 @@ n = int(input())
 
 if a1 == "":
     a1 = 1
-    print("wyraz nr", n, "ciagu geometrycznego o q =", q, "i a1 =", a1, "jest rowny:")
-    print(ciag_geometryczny(int(a1),int(q),n))
-elif q == "":
+
+if q == "":
     q = 2
-    print("wyraz nr", n, "ciagu geometrycznego o q =", q, "i a1 =", a1, "jest rowny:")
-    print(ciag_geometryczny(int(a1),int(q),n))
-elif (q == "" and a1 == ""):#problem z tym elif
+
+if (q == "" and a1 == ""):
     q = 2
     a1 = 1
-    print("wyraz nr", n, "ciagu geometrycznego o q =", q, "i a1 =", a1, "jest rowny:")
-    print(ciag_geometryczny(int(a1),int(q),n))    
-else:
-    print("wyraz nr", n, "ciagu geometrycznego o q =", q, "i a1 =", a1, "jest rowny:")
-    print(ciag_geometryczny(int(a1),int(q),n))
+
+print("wyraz nr", n, "ciagu geometrycznego o q =", q, "i a1 =", a1, "jest rowny:")
+print(ciag_geometryczny(int(a1),int(q),n))
